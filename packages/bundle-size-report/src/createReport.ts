@@ -150,5 +150,5 @@ function getEmoji(
   if (reportAssetData.isRemoved || reportAssetData.isAdded) {
     return "";
   }
-  return reportAssetData.diff > minimumIncrease ? "✅" : "🔺";
+  return reportAssetData.diff > minimumIncrease ? "🔺" : "✅";
 }
